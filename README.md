@@ -1,2 +1,1 @@
-# percolation
-Simulation and Analysis of Percolation Systems
+# Simulation and Analysis of Percolation Systems
