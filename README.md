@@ -11,7 +11,7 @@ will be present. At `p` = 0.3, every possible connection has a 30% chance of bei
 
 The system becomes interesting when we begin to analyze the formation of clusters, or groups of connected nodes. At `p` = 0, each node is its own cluster. At `p` = 0.3, some small clusters
 have formed. And at `p` = 1, there is one giant cluster. It is a well-established fact in percolation theory that the 2-dimensional system undergoes a phase transition at the critial `p` = 0.5.
-When each possible connection has a 50% chance of being added, the system shows fractal structure, exhibiting scale invariance in the shapes and sizes of clusters. See `critical_percolation.png` to preview a 1000x1000 critical system. 
+When each possible connection has a 50% chance of being added, the system shows fractal structure, exhibiting scale invariance in the shapes and sizes of clusters. See `critical_percolation.png` to preview a 1000x1000 critical system. The other images show the same system at different `p`-levels (0.32, 0.46, and 0.53).
 
 In this project I generate and visualize percolation systems. I make use of interavtive sliders to more intuitively see the effects of changing `p` and easily view only the `n` largest clusters.
 I visualize the cluster size distributions near criticality to show the existence of a phase transition at `p` = 0.5. Next, I perform least-squares regression to fit curves to various distributions
